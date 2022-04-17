@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/x-icon" href="/images/demo-logo-black.png">
+    <link rel="stylesheet" href="media-queries.css">
+    <script src="script.js"></script>
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <a href="index.html"><img class="logo-main" src="images/demo-logo-black.png" alt="LOGO">
+                    <p class="tagline">This is my personal Blog</p></a>
+                </div>
+                <div class="col">
+                    <div class="topnav" id="myTopnav">
+                        <a href="index.html" class="active">Home</a>
+                        <a href="single-blog.html">Single Blog</a>
+                        <a href="contact.html">Contact Us</a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="banner-section cont">
+                    <h1>Contact Us</h1>
+    </div>
+    <div class="container mg-b-80">
+        <div class="row">
+            <form class="contact-us">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Enter first name">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Enter last name">
+            
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something" style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+              </form>
+        </div>
+    </div>
+    <footer>
+        <div class="copyright">
+            All rights Reserved
+        </div>
+    </footer>
+</body>
+</html>
